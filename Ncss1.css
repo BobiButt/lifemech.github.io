@@ -1,0 +1,27 @@
+ul{
+	width: 1530px;
+	
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 40px;
+	line-height: 40px;
+	background-color: #FF0202;
+	font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 20px;
+}
+li{
+	float: left;
+	border-right: 1px solid #0215FF;
+
+}
+a{
+	display: block;
+	padding: 0 81.3;
+	color: #fff;
+	text-decoration: none;
+
+}
+li a:hover , .active a{
+	background-color: #02ff4e;
+}
